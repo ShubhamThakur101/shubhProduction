@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main {
+    background-color: #f0f0f0;
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+.card {
+    max-width: 91vh;
+    margin: auto 50px;
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 5px;
+}
+
+footer {
+    background-color: #2874f0;
+    height: 12vh;
+}
+
